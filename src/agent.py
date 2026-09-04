@@ -5,7 +5,7 @@ from google import genai
 from google.genai import types
 
 # Import the tool functions directly from our MCP server file
-from mcp_server import (
+from src.mcp_server import (
     get_companies_by_sector,
     get_company_financials,
     get_company_operational_metrics,
